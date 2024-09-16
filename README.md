@@ -35,3 +35,12 @@ for i in range(1, len(floors)):
 
 ![image](https://github.com/user-attachments/assets/c1ec1831-ded5-42cb-ad2d-79cbc28c81d4)
 
+# To get the number of elevations, we used this code:
+
+import ifcopenshell
+from bonsai.bim.ifc import IfcStore
+file = IfcStore.get_file()
+
+things = file.by_type('IfcBuildingStorey')
+print("num of elevations", len(things))
+
