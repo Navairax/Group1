@@ -1,1 +1,2 @@
-# BIManalyst group xy
+# BIManalyst group 1
+# Focus Area: Architecture, ceilings
