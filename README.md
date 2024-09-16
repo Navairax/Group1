@@ -1,6 +1,6 @@
 ## BIManalyst group 1
 ## Focus Area: Architecture, ceilings
-### The claim: We are checking the floor to floor hight of every story in the building, and if it matches the claim made in the report. 
+### The claim: We are checking the floor to floor height of every story in the building, and if it matches the claim made in the report. 
 <img width="266" alt="image" src="https://github.com/user-attachments/assets/79eda680-0ed1-4983-8389-48f31095e5bf">, 
 ### Architectural Report: CES_BLD_24_06_ARC, page number: 22
 ### The code:
@@ -31,12 +31,12 @@ for i in range(1, len(floors)):
     elevation = z2 - z1
     print(f"Elevation between {floor1.name} and {floor2.name}: {elevation} Blender units")
 
-### Then it prints the elevation difference between the floors.
+### Then it prints the elevation difference between the floors. It shows in the output of the cod, that the height from floor to floor is 3,8 meters.
 
 
 ![image](https://github.com/user-attachments/assets/c1ec1831-ded5-42cb-ad2d-79cbc28c81d4)
 
-### To get the number of elevations, we ran this code:
+### To get the number of elevations, we ran this code: 
 
 import ifcopenshell
 from bonsai.bim.ifc import IfcStore
