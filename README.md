@@ -16,7 +16,7 @@ floors = [obj for obj in bpy.data.objects if "IfcBuildingStorey" in obj.name]
 # The floors are sorted based on their height (Z-coordinate) to ensure they are ordered from lowest to highest. This allows the script to calculate the elevation difference between consecutive floors.
 floors.sort(key=lambda obj: obj.location.z)
 
-# The code loops through pairs of adjacent floors, taking each pair ex. floor 1 and floor 2, floor 2 and floor 3).
+# The code runs through pairs of adjacent floors, taking each pair. Fx, floor 1 and floor 2, floor 2 and floor 3).
 # For each pair, it extracts their Z-coordinates (z1 and z2), which represents their heights.
 # It then calculates the elevation difference by subtracting z1 from z2.
 
@@ -35,7 +35,7 @@ for i in range(1, len(floors)):
 
 ![image](https://github.com/user-attachments/assets/c1ec1831-ded5-42cb-ad2d-79cbc28c81d4)
 
-# To get the number of elevations, we used this code:
+# To get the number of elevations, we ran this code:
 
 import ifcopenshell
 from bonsai.bim.ifc import IfcStore
