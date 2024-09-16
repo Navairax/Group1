@@ -31,3 +31,7 @@ for i in range(1, len(floors)):
     print(f"Elevation between {floor1.name} and {floor2.name}: {elevation} Blender units")
 
 # Then it prints the elevation difference between the floors.
+
+
+![image](https://github.com/user-attachments/assets/c1ec1831-ded5-42cb-ad2d-79cbc28c81d4)
+
