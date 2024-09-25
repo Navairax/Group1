@@ -17,6 +17,7 @@ def checkRule(model):
         elevation = z2 - z1
         print(f"Elevation between {floor1.name} and {floor2.name}: {elevation} Blender units")
         
-
+#things = file.by_type('IfcBuildingStorey')
+#print("num of elevations", len(things))
         
 
