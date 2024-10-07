@@ -18,3 +18,14 @@
 ### The reason we chose this claim is that the cealing information in the reports are limited and the chosen report is the only one that adresses the floor-to-ceiling height.
 
 ## A2c: Use Case
+### To check the claim, you would compare the design specification for the floor-to-floor and floor-to-ceiling heights provided in the architectural report (3.8 meters and 2.9 meters, respectively) with the actual measurements in the BIM model. 
+### Use BIM software blender to validate the measurements, checking the model dimenson directly. 
+
+### This would need to be checked during the design review phase. The claim needs to be checked before the final design is approved to ensure that the model meets the architectural specifications.
+
+### This claim relies the Architectural Report, page 17, where the floor-to-floor and floor-to-ceiling heights are mentioned. 
+### The BIM model must contain the accurate height information to verify the claim
+### Input form O&M, constructability review, and end-user feedback may influence design acceptability, as shown in the diagram.
+
+### Design phase: This verification occurs during the design phase, where dimensions are checked and confirmed before proceeding to construction.
+
