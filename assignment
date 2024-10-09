@@ -29,3 +29,7 @@
 
 ### Design phase: This verification occurs during the design phase, where dimensions are checked and confirmed before proceeding to construction.
 
+### The required BIM purpose for the project is Generate. This purpose focuses on creating information about the facility to ensure the design meets the requirements for ceinling and floor heights. 
+### The use cases that help in the projekt are Prescribe and Size. 
+Prescribe: this use case helps identify and specify the necessary elements/rooms within the building, ensuring that the design adheres to the requirements for ceiling height as outlined in the architectural reports.
+Size: this use case is crucial for validating the dimensions of ceiling and floor heights, ensuring that they meet the required specifications. It involves checking that all elements are accurately sized.
