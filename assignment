@@ -33,3 +33,14 @@
 ### The use cases that help in the projekt are Prescribe and Size. 
 Prescribe: this use case helps identify and specify the necessary elements/rooms within the building, ensuring that the design adheres to the requirements for ceiling height as outlined in the architectural reports.
 Size: this use case is crucial for validating the dimensions of ceiling and floor heights, ensuring that they meet the required specifications. It involves checking that all elements are accurately sized.
+
+## A2d: Scope the use case
+
+### The scope of the use case is highlighted in the BPMN diagram in the black box, specifically the red box where the script would check the floor to ceiling height
+
+
+## A2e: Tool idea
+
+### The ifcOpenSHell tool in Python is intended to check the floor to floor height and check the floor to ceiling height and ensure that the floor to ceiling height is less than the floor to floor height. Once that runs true then there is no clashes between the floors. It serves as a sort of simple quick clash detection for a specific design aspect. The business value this could offer is that during the design phase, the architect can continously run these simple scripts to verify the measurements of the different parts of the building to ensure they dont clash. For this example, its ensuring the ceiling is placed before the next floor. However this simple python script could be extrapolated to all parts of the builidng. It would also be financially less expensive to run a python script throughout the design phase and notice any error and adjust accordingly. Rather than run clash detection later on and have to spend more time and money to fix it. The societal value our tool would bring is that it would offer an open sourced solution to anyone who needs to check their model and sure it is not clashing. 
+
+
