@@ -41,14 +41,14 @@ Size: this use case is crucial for validating the dimensions of ceiling and floo
 
 ## A2e: Tool idea
 
-### The ifcOpenSHell tool in Python is intended to check the floor to floor height and check the floor to ceiling height and ensure that the floor to ceiling height is less than the floor to floor height. Once that runs true then there is no clashes between the floors. It serves as a sort of simple quick clash detection for a specific design aspect. The business value this could offer is that during the design phase, the architect can continously run these simple scripts to verify the measurements of the different parts of the building to ensure they dont clash. For this example, its ensuring the ceiling is placed before the next floor. However this simple python script could be extrapolated to all parts of the builidng. It would also be financially less expensive to run a python script throughout the design phase and notice any error and adjust accordingly. Rather than run clash detection later on and have to spend more time and money to fix it. The societal value our tool would bring is that it would offer an open sourced solution to anyone who needs to check their model and sure it is not clashing. 
+###The ifcOpenSHell tool in Python is intended to check the floor to floor height and check the floor to ceiling height and ensure that the floor to ceiling height is less than the floor to floor height. Once that runs true then there is no clashes between the floors. It serves as a sort of simple quick clash detection for a specific design aspect. The business value this could offer is that during the design phase, the architect can continously run these simple scripts to verify the measurements of the different parts of the building to ensure they dont clash. For this example, its ensuring the ceiling is placed before the next floor. However this simple python script could be extrapolated to all parts of the builidng. It would also be financially less expensive to run a python script throughout the design phase and notice any error and adjust accordingly. Rather than run clash detection later on and have to spend more time and money to fix it. The societal value our tool would bring is that it would offer an open sourced solution to anyone who needs to check their model and sure it is not clashing. 
 
 ## A2f: Information Requirements 
 
-### We need to extract the following information from the BIM model:
-### The vertical distance between the top of one floor to the top of the floor directly above it
-### The vertical distance from the top of the floor to the underside of the ceiling
-### Any properties related to hegiht that might be defined in the model. 
+###We need to extract the following information from the BIM model:
+###The vertical distance between the top of one floor to the top of the floor directly above it
+###The vertical distance from the top of the floor to the underside of the ceiling
+###Any properties related to hegiht that might be defined in the model. 
 
 ### In an IFC model, the relevant information for ceiling and floor heights can can typically be found in the following entities:
 
