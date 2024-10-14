@@ -51,21 +51,22 @@ Size: this use case is crucial for validating the dimensions of ceiling and floo
 ### Any properties related to hegiht that might be defined in the model. 
 
 ### In an IFC model, the relevant information for ceiling and floor heights can can typically be found in the following entities:
+
 ### IfcBuildingStorey:
 ### Location: This represents each floor or level in the building
 ### Attributes - ElevationOfRefHeight: Indicates the vertical position of the storey relative to a reference level, whic is useful for determining the floor-to-floor height.
 
-### IfcSpace
+### IfcSpace:
 ### Attributes - Height: Indicates the ceiling height of the space
 ### Attributes - BoundedBy: References the enclosing elements (walls, ceilibgs) that can help determine the avaliavle height.
 
-### IfcCeiling
+### IfcCeiling:
 ### Location: Represents ceiling elements in a building.
 ### Attributes - Height: While not always directly present, the position of the ceiling in relation to the storey elevation can be inferred. The thickness or offset of the ceiling can also be considered when calculating the floor-to-ceiling height.
 
 ### Whether this information is in the model depends on how comprehensive the BIM model is. In well-structured BIM models, especially those intended for architectural analysis, you can expect to find:
-  ### Floor-to-floor heights defined through the IfcBuildingStorey elevation attributes
-  ### Ceiling heights defined in the IfcSpace or associated with IfcCeiling
+### Floor-to-floor heights defined through the IfcBuildingStorey elevation attributes
+### Ceiling heights defined in the IfcSpace or associated with IfcCeiling
 
 ### Yes, to extract ceiling and height-realted information from an IFV model usinf IfcOpenShell, you have to do the following:
 ### Begin by using IfcOpenShell to open the IFC file. This typically involves using the ifcopenshell.open() function to read the file into memory.
