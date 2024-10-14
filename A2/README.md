@@ -9,11 +9,11 @@
 ## Focus area
 ## We are analysists and our focus area is cealing
 
-## A2b: Identify claim
+##A2b: Identify claim
 
-### The report we have chosen is building 2410
-### The claim we are checking is the floor-to-floor height which is set at 3.8 meters and the floor-to-ceiling height which is 2.9 meters on standard office floors.
-### The claim is made in the architectur report, page 17
+###The report we have chosen is building 2410
+###The claim we are checking is the floor-to-floor height which is set at 3.8 meters and the floor-to-ceiling height which is 2.9 meters on standard office floors.
+###The claim is made in the architectur report, page 17
 
 ### The reason we chose this claim is that the cealing information in the reports are limited and the chosen report is the only one that adresses the floor-to-ceiling height.
 
