@@ -79,3 +79,8 @@ Size: this use case is crucial for validating the dimensions of ceiling and floo
 ### Calculate the floor-to-floor and floor-to-ceiling heights
 
 ### By following these steps in IfcOpenShell, we can effectively extract height-related information from an IFC model and analyze the floor-to-floor and floor-to-ceiling heights. 
+
+
+## A2g: Identify appropriate software licence
+
+### We have choosen GPL-3.0 as the license for our project because it contains source code and is intended to be open source. GPL-3.0 ensures that others can use, modify and distribute the code while also requiring them to share their changes under the same license. This choice protects the project from being made proprietary and promotes collaboration within the open-source community. 
