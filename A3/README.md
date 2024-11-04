@@ -10,10 +10,13 @@
 
 ### The ifcOpenSHell tool in Python is intended to check the heights and ensure that the floor to ceiling height is less than the floor to floor height. Once that runs true then there is no clashes between the floors. It serves as a sort of simple quick clash detection for a specific design aspect. The business value this could offer is that during the design phase, the architect can continously run these simple scripts to verify the measurements of the different parts of the building to ensure they dont clash. For this example, its ensuring the ceiling is placed before the next floor. However this simple python script could be extrapolated to all parts of the builidng. It would also be financially less expensive to run a python script throughout the design phase and notice any error and adjust accordingly. Rather than run clash detection later on and have to spend more time and money to fix it. The tool would be an open sourced solution to anyone who needs to check their model and sure it is not clashing.
 
-## Instructions to run the tool: 
+# Instructions to run the tool: 
 
 
-## What Advanced Building Design Stage (A,B,C or D) would your tool be usefuL?
-## Which subjects might use it?
-## What information is required in the model for your tool to work?
+# What Advanced Building Design Stage (A,B,C or D) would your tool be usefuL?
+
+## Which Advnanced Building Design subjects might use it?
+### The tool is intended tobe used by the architectural subject in the course however the other subjects can certainly use the tool to check the heights or even can adjust the script and check different measurements. 
+
+# What information is required in the model for your tool to work?
 
