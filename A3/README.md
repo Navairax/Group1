@@ -12,3 +12,8 @@
 
 ## Instructions to run the tool: 
 
+
+## What Advanced Building Design Stage (A,B,C or D) would your tool be usefuL?
+## Which subjects might use it?
+## What information is required in the model for your tool to work?
+
