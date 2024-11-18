@@ -14,7 +14,7 @@
 
 ### The business value this could offer is that during the design phase, the architect can continously run these simple scripts to verify building measurements and avoid clashes, ensuring ceilings are placed correctly before the next floor. Beyond this specific use case, the Python script can be extended to analyze other parts of the building. It would also be financially less expensive to run a python script throughout the design phase and notice any error and adjust accordingly. Rather than run clash detection later on and have to spend more time and money to fix it. The tool would be an open sourced solution to anyone who needs to check their model and sure it is not clashing.
 
-# Instructions to run the tool: 
+## Instructions to run the tool: 
 
 ### 1. Download all the necessary softwares such as visual studio code, blenderBIM and github.
 
@@ -27,14 +27,14 @@
 ### 5. Check the results with whats in your current plan of the building/ report. 
 
 
-# What Advanced Building Design Stage (A,B,C or D) would your tool be usefuL?
+## What Advanced Building Design Stage (A,B,C or D) would your tool be usefuL?
 
 ### The tool is useful in all stages of ADB, particulary in stage A during early stage design to check the model is not clashing. It is also useful throughout the other stages as a quick clash detection to be able to ensure that the model is set up correctly without having to necessary open the entire model. Running the script is as simple as pressing "play". 
 
 ## Which Advnanced Building Design subjects might use it?
 ### The tool is intended tobe used by the architectural subject as it focuses on the spatial layout. The other subjects can certainly use the tool to check the heights or even can adjust the script and check different measurements. 
 
-# What information is required in the model for your tool to work?
+## What information is required in the model for your tool to work?
 
 ### The building storey data is needed, specfically each storey information such as the Elevation. This will enable us to calculate the floor to floor height. The slab and covering information is needed specifcally the predefined type and name attributes. Overall, the model should be well structured and the items in the IFC should be more properly defined to ensure accurate proper infromation extraction and validation. 
 
