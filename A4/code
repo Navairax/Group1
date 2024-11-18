@@ -1,1 +1,39 @@
+#Extracting potential floors and ceilings:
+# Extract IfcSlab and IfcCovering elements. The code retrieves all ifcslab and ifccovering elements from the model
+all_slabs = model.by_type("IfcSlab")
+all_coverings = model.by_type("IfcCovering")
 
+# Use heuristics to identify potential floors and ceilings, even if mislabeled
+potential_floors = []
+potential_ceilings = []
+
+#Potential floors: ifcslab elements with predefinestype set to floor or with names containing the word floor.
+#Potential ceilings: IfcSlab elements with predefinedtype set to roof, names containing ceiling or cover, or ifccovering elements with predefinedtype set to ceiling or names containing ceiling.
+for slab in all_slabs:
+    predefined_type = getattr(slab, "PredefinedType", None)
+    name = getattr(slab, "Name", "").lower()
+    
+    # Consider slabs with names containing 'floor' or predefined type as FLOOR
+    if predefined_type == "FLOOR" or "floor" in name:
+        potential_floors.append(slab)
+    # Fallback: consider slabs at lower elevations or named ambiguously as potential floors
+    elif predefined_type == "ROOF" or "ceiling" in name or "cover" in name:
+        potential_ceilings.append(slab)
+
+for covering in all_coverings:
+    predefined_type = getattr(covering, "PredefinedType", None)
+    name = getattr(covering, "Name", "").lower()
+    
+    # Consider coverings with names containing 'ceiling' or predefined type as CEILING
+    if predefined_type == "CEILING" or "ceiling" in name:
+        potential_ceilings.append(covering)
+    # Fallback: consider coverings at higher elevations as potential ceilings
+    elif "cover" in name or predefined_type is None:
+        potential_ceilings.append(covering)
+
+# Display the number of identified floors and ceilings
+print("\nPotential floor and ceiling counts:")
+print(f"Potential floor elements found: {len(potential_floors)}")
+print(f"Potential ceiling elements found: {len(potential_ceilings)}")
+
+#Displaying the counts:The code prints the number of potential ceiling elements found.
