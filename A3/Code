@@ -1,0 +1,72 @@
+from pathlib import Path
+import ifcopenshell
+
+model_path = Path("/Users/hajarbenjdya/Downloads/CES_BLD_24_10_ARC.ifc")
+if not model_path.is_file():
+    raise FileNotFoundError(f"No file found at {model_path}!")
+
+try:
+    model = ifcopenshell.open(model_path)
+    print("Model opened successfully.")
+
+except Exception as e:
+    print(f"An error occurred while opening the model: {e}")
+
+# Extract IfcBuildingStorey elements and their elevations
+storeys = model.by_type("IfcBuildingStorey")
+
+# Filter out storeys without an Elevation and sort them by Elevation
+storeys_with_elevation = [
+    storey for storey in storeys if getattr(storey, "Elevation", None) is not None
+]
+storeys_with_elevation.sort(key=lambda s: s.Elevation)
+
+# Print floor-to-floor heights
+print("Floor-to-Floor Heights:")
+for i in range(1, len(storeys_with_elevation)):
+    storey1 = storeys_with_elevation[i - 1]
+    storey2 = storeys_with_elevation[i]
+    
+    z1 = getattr(storey1, "Elevation", 0)
+    z2 = getattr(storey2, "Elevation", 0)
+    
+    name1 = getattr(storey1, "Name", f"Storey {i}")
+    name2 = getattr(storey2, "Name", f"Storey {i+1}")
+    
+    height_difference = z2 - z1
+    print(f"Height between {name1} and {name2}: {height_difference} IFC units")
+
+# Extract IfcSlab and IfcCovering elements
+all_slabs = model.by_type("IfcSlab")
+all_coverings = model.by_type("IfcCovering")
+
+# Use heuristics to identify potential floors and ceilings, even if mislabeled
+potential_floors = []
+potential_ceilings = []
+
+for slab in all_slabs:
+    predefined_type = getattr(slab, "PredefinedType", None)
+    name = getattr(slab, "Name", "").lower()
+    
+    # Consider slabs with names containing 'floor' or predefined type as FLOOR
+    if predefined_type == "FLOOR" or "floor" in name:
+        potential_floors.append(slab)
+    # Fallback: consider slabs at lower elevations or named ambiguously as potential floors
+    elif predefined_type == "ROOF" or "ceiling" in name or "cover" in name:
+        potential_ceilings.append(slab)
+
+for covering in all_coverings:
+    predefined_type = getattr(covering, "PredefinedType", None)
+    name = getattr(covering, "Name", "").lower()
+    
+    # Consider coverings with names containing 'ceiling' or predefined type as CEILING
+    if predefined_type == "CEILING" or "ceiling" in name:
+        potential_ceilings.append(covering)
+    # Fallback: consider coverings at higher elevations as potential ceilings
+    elif "cover" in name or predefined_type is None:
+        potential_ceilings.append(covering)
+
+# Display the number of identified floors and ceilings
+print("\nPotential floor and ceiling counts:")
+print(f"Potential floor elements found: {len(potential_floors)}")
+print(f"Potential ceiling elements found: {len(potential_ceilings)}")
