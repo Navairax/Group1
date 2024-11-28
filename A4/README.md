@@ -39,5 +39,9 @@
   ## 5.	Review the grouped elements and verify that they are accounted for. Alternatively open the BIM viewer and check there. 
 
 # Feedback of other Architecture BIM Groups
+## Group 4: The groups tool on gathering  material information and calculating the volume of the building elements to find the CO2 emissions is a nice idea. Its helpful as its intended to be used during the early stages of the design process. The group did have some issues in the IFC model as they could not always match the building elements to materials. If the IFC model had a more robust system for the elements where there was also a material and an amount, then this tool has a lot of potential to be used in the industry as a pre LCA. 
 
+## Group 8: The groups tool is about space optimization by finding the necessary information, understanding the space management, and then trying to connect that information. There were issues in their tool with the optimzation as the ifc model has inconsistencies. Thereby they could not find the exact floor number needed to extract the information and to connect it. The concept is nice in theory, however the application appears to be much more complex. 
+
+## Overall: The Architecture BIM groups had some really insightful tools but the overlying theme among all groups is that there IFC model has way too many inconsistencies/mislabelling. This major flaw in the IFC models makes it hard to have working tools. Fortunately, the tool our group developed solves some of this problem by attempting to identify and reclassify mislabeled elements. 
 
