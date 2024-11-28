@@ -6,7 +6,7 @@
 
 ## Description of the tool: 
 
-### The tool relies on the BIM software, Blendar, and the add on of visual studio code to validate the measurements by checking the IFC model dimensions directly. This will enbale the design team to verify throughout the design phase, to ensure that these two heights are accurate and also to ensure that the next floor is not overlapping or under the ceiling of the previous floor.  The concept behind this tool is that by checking the floor to floor and floor to ceiling heights, the design team can check that the heights satisfiy the minimum requirements and that the ceiling and floor do not overlap in the design. 
+### The tool relies on the BIM software, Blendar, and the add on of visual studio code to validate the measurements by checking the IFC model dimensions directly. This will enable the design team to verify throughout the design phase, to ensure that these two heights are accurate and also to ensure that the next floor is not overlapping or under the ceiling of the previous floor.  The concept behind this tool is that by checking the floor to floor and floor to ceiling heights, the design team can check that the heights satisfiy the minimum requirements and that the ceiling and floor do not overlap in the design. 
 
 ### The intendee goal of our tool was that the ifcOpenSHell tool in Python will check the heights and ensure that the floor to ceiling height is less than the floor to floor height. Once that runs true then there is no clashes between the floors. It serves as a sort of simple quick clash detection for a specific design aspect. 
 
