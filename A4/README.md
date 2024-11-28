@@ -1,10 +1,12 @@
-# Video title: How to Identify Mislabeled Building Elements
-## Video Link: https://www.youtube.com/watch?v=1ctDLXtbFwI
-
 # Explicit Summary 
+# How to Identify Mislabeled Building Elements and Reclassify Them
+
 
 # Introduction
 ## The video tutorial is designed to help BIM users identify and correct mislabelled building elements, focusing specifically on ceilings that might be incorrectly labelled as slabs, coverings or other elements. By using Python and ifcopenshell, you will learn how to load and analyze IFC models, check for inconsistencies and correct classification of architectural components. This ensures that the BIM data is correctly classified for better architecture project management and data analysis. The viewers will gain insights on how to apply this method to other mislabelled elements, providing a comprehensive approach in improving BIM data quality. 
+
+## Video title: How to Identify Mislabeled Building Elements
+## Video Link: https://www.youtube.com/watch?v=1ctDLXtbFwI
 
 # Role: OpenBIM Analyst
 ## Learning level: Level 2
