@@ -31,14 +31,14 @@
 ## Explanation of Results:
 ### The results then show that there are 23 potential floor elements and 17 potential ceiling elements. The BIM model and report show that building is 23 floors with 24 ceilings, meaning that the results were accurate with counting the floor elements and inaccurate with the ceiling elements. This is because ceilings were inaccurately labelled and even with the python script collecting all the known names for the ceilings, there are still some inconsistencies in the naming. 
 
-## How to use the code on other building elements:
+# How to use the code on other building elements:
  ### 1.	Understand the IFC building elements labelling. IfcSlab and IfcCovering elements typically represent floors, ceilings, roofs, & coverings.	There is also IfcWall, IfcWindow, IfcDoor, etc 
   ### 2.	Research the attributes the specific building elemetns use to define their roles or types ( for example, PredefinedType, Name) 	This will help to classify and identify them into the potential categories 
   ### 3.	Modify the script	Replace IfcSlab and IfcCovering with the desired element type (e.g., IfcWall, IfcDoor) using model.by_type("ElementType")	Then adjust the rules for classification based on attributes like PredefinedType or keywords in Name.
   ### 4.	Load the Ifc model and run the script 
   ### 5.	Review the grouped elements and verify that they are accounted for. Alternatively open the BIM viewer and check there. 
 
-## Further Considerations 
+# Further Considerations 
 ### The teach tool we developed in A4 was able to collect 17 out of the 24 mislabeled ceiling elements and count them as 'potential ceilings'. Given more time and resources, we would have been able to collect all 24 mislabeled ceiling elements by running many more iterations of our script. In this instance you would need numerous iterations of our tool to collect all mislabeled elements. It is a semi-manual process of finding one item mislabeled, then adding that to our script and the script automatically counts any elements with that name. Ideally, if we had managed to collect all 24 mislabeled ceiling elements, then we would have been able to check the floor to ceiling height. The floor to ceiling height is a part of our assignment 3 tool and would make it so the clash detection could be used for both floor to floor and floor to ceiling. Our overall goal was to semi automate the process of identifying mislabeled elements to make it efficient. Such that if an individual or an organization is given a huge mislabeled IFC file with many inconsistencies, then they would be able tO collect and count those inconsistent naming using our simple python script. 
 
 
