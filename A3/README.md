@@ -42,3 +42,18 @@
 
 ## Explanation of results
 ### The results indicate that there are 23 potential floor elements, corresponding to 23 floor to floor height measurements between the levels. Overall the output indicates an accurate and consisment measurement between the floor to floor, which is also what the tool was intended to check
+
+## IDS Check
+### The goal of the IDS in this case is to ensure that the IFC file is valid and that it contains the necessary elements and attributes for our tool to function properly.  
+### We need to ensure that: 
+### - The model contains the necessary building storeys (ifcBuildingStorey) and it must have the Elevation data 
+### - The model includes the valid floor to floor height data 
+### - The storeys are properly labelled with no invalid storey names 
+### - IfcBuildingStorey, Elevation, Name, Storey 
+### The IDS should perform a check and raise alerts if there are missing or inconsistent; storeys, elevation data, or storey names 
+### 1. File existence check: It checks the existence of the file at the provided path. If the file is missing, it raises an error 
+### 2. Check the opening of the model: It attempts to open the model using ifcopenshell library. If there is any issue, it raises an error 
+### 3. Storey Presence Check: It checks if there are any IfcBuildingStorey elements in the IFC model, if nor storeys are found, an error is raised. 
+### 4. Elevation validation: It checks if all the storeys have valid elevation data. If any storey is missing an elevation, it raises an error. 
+### 5. torey name validation: It checks if every storey has a Name attribute. If any storey is missing a name, it raises an error 
+### If any of these checks fail the IDS will provide an error message and prevent the tool from continuing without resolving the issue. 
