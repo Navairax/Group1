@@ -37,6 +37,8 @@ the tool also incorporates heuristic checks. These heuristics classify slabs and
 ### The tool is intended to be used by the architectural subject as it focuses on the spatial layout. The other subjects can certainly use the tool to check the heights or even can adjust the script and check different measurements. 
 
 ## What information is required in the model for your tool to work?
-
 ### The building storey data is needed, specfically each storey information such as the Elevation. This will enable us to calculate the floor to floor height. Overall, the model should be well structured and the items in the IFC should be properly defined to ensure accurate proper infromation extraction and validation. 
 
+
+## Explanation of results
+### The results indicate that there are 23 potential floor elements, corresponding to 23 floor to floor height measurements between the levels. Overall the output indicates an accurate and consisment measurement between the floor to floor, which is also what the tool was intended to check
