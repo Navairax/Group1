@@ -1,6 +1,6 @@
 # Explicit Summary: 
 
-# How to Identify Mislabeled Building Elements and Reclassify Them
+## How to Identify Mislabeled Building Elements and Reclassify Them
 ## This tutorial teachs identifying and correcting mislabeled building elements, focusing on misclassified ceilings. Using python, ifcopenshell, and BIM model to ensure that the labelling inconsisities are reclassified. 
 
 # Introduction:
