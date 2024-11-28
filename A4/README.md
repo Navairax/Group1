@@ -1,8 +1,8 @@
-# Explicit Summary 
+# Explicit Summary: 
 # How to Identify Mislabeled Building Elements and Reclassify Them
 ## This tutorial teachs identifying and correcting mislabeled building elements, focusing on misclassified ceilings. Using python, ifcopenshell, and BIM model to ensure that the labelling inconsisities are reclassified. 
 
-# Introduction
+# Introduction:
 ## The video tutorial is designed to help BIM users identify and correct mislabelled building elements, focusing specifically on ceilings that might be incorrectly labelled as slabs, coverings or other elements. By using Python and ifcopenshell, you will learn how to load and analyze IFC models, check for inconsistencies and correct classification of architectural components. This ensures that the BIM data is correctly classified for better architecture project management and data analysis. The viewers will gain insights on how to apply this method to other mislabelled elements, providing a comprehensive approach in improving BIM data quality. 
 
 ## Video title: How to Identify Mislabeled Building Elements
@@ -28,13 +28,15 @@
 
 ## Read the video description for more details. 
 
-# Explanation of Results
+# Explanation of Results:
 ## The results then show that there are 23 potential floor elements and 17 potential ceiling elements. The BIM model and report show that building is 23 floors with 24 ceilings, meaning that the results were accurate with counting the floor elements and inaccurate with the ceiling elements. This is because ceilings were inaccurately labelled and even with the python script collecting all the known names for the ceilings, there are still some inconsistencies in the naming. 
-# How to use the code on other building elements. 
+# How to use the code on other building elements:
  ## 1.	Understand the IFC building elements labelling. IfcSlab and IfcCovering elements typically represent floors, ceilings, roofs, & coverings.	There is also IfcWall, IfcWindow, IfcDoor, etc 
   ## 2.	Research the attributes the specific building elemetns use to define their roles or types ( for example, PredefinedType, Name) 	This will help to classify and identify them into the potential categories 
   ## 3.	Modify the script	Replace IfcSlab and IfcCovering with the desired element type (e.g., IfcWall, IfcDoor) using model.by_type("ElementType")	Then adjust the rules for classification based on attributes like PredefinedType or keywords in Name.
   ## 4.	Load the Ifc model and run the script 
   ## 5.	Review the grouped elements and verify that they are accounted for. Alternatively open the BIM viewer and check there. 
+
+# Feedback of other Architecture BIM Groups
 
 
