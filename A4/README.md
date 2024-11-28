@@ -38,6 +38,10 @@
   ### 4.	Load the Ifc model and run the script 
   ### 5.	Review the grouped elements and verify that they are accounted for. Alternatively open the BIM viewer and check there. 
 
+## Further Considerations 
+### The teach tool we developed in A4 was able to collect 17 out of the 24 mislabeled ceiling elements and count them as 'potential ceilings'. Given more time and resources, we would have been able to collect all 24 mislabeled ceiling elements by running many more iterations of our script. In this instance you would need numerous iterations of our tool to collect all mislabeled elements. It is a semi-manual process of finding one item mislabeled, then adding that to our script and the script automatically counts any elements with that name. Ideally, if we had managed to collect all 24 mislabeled ceiling elements, then we would have been able to check the floor to ceiling height. The floor to ceiling height is a part of our assignment 3 tool and would make it so the clash detection could be used for both floor to floor and floor to ceiling. Our overall goal was to semi automate the process of identifying mislabeled elements to make it efficient. Such that if an individual or an organization is given a huge mislabeled IFC file with many inconsistencies, then they would be able tO collect and count those inconsistent naming using our simple python script. 
+
+
 # Feedback of other Architecture BIM Groups
 ### Group 4: The groups tool on gathering  material information and calculating the volume of the building elements to find the CO2 emissions is a nice idea. Its helpful as its intended to be used during the early stages of the design process. The group did have some issues in the IFC model as they could not always match the building elements to materials. If the IFC model had a more robust system for the elements where there was also a material and an amount, then this tool has a lot of potential to be used in the industry as a pre LCA. 
 
