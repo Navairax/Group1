@@ -17,13 +17,13 @@
 ## Summary of the Feedback on our Tutorial 
 ### The tool did address the use case we identified as it ultimately looks at the root of the problem in these IFC models and despite it being time consuming to set up. The long term value is that it would save time and effort. Below is a summarized list of the comments we got from the other groups. Most of the feedback talks about how useful our tool is and the rest talks about the time this tool takes to be efficient.  	 
 #### The feedback directly from the other groups: 
-> This helps clean up the model and ensures that time spent on it by designers and planners is more efficient. 
-> Simplifies the model by cleaning it up AND finds "missing" elements which seems pretty nice.  
-> This tool seems very helpful, particularly in simplifying models early in the project process. 
-> Over time, as the tool is used more often, its library of known errors will grow, making it increasingly effective. 
-> Seems useful but there is a lot of manual work initially - might be less the more the tool is used 
-> Initially, some time will be needed to identify and define potential errors within the script. However, this is a one-time effort that will diminish with continued use. 
-> This tool has the potential to be highly beneficial in the real-world industry. While it may require some effort at the start, its long-term efficiency gains make it a valuable contribution. The group did a great job on this project. 
+> * This helps clean up the model and ensures that time spent on it by designers and planners is more efficient. 
+> * Simplifies the model by cleaning it up AND finds "missing" elements which seems pretty nice.  
+> * This tool seems very helpful, particularly in simplifying models early in the project process. 
+> * Over time, as the tool is used more often, its library of known errors will grow, making it increasingly effective. 
+> * Seems useful but there is a lot of manual work initially - might be less the more the tool is used 
+> * Initially, some time will be needed to identify and define potential errors within the script. However, this is a one-time effort that will diminish with continued use. 
+> * This tool has the potential to be highly beneficial in the real-world industry. While it may require some effort at the start, its long-term efficiency gains make it a valuable contribution. The group did a great job on this project. 
 
 ## Individual Feedback | Lama Aref Abdul Hamid | 
 
