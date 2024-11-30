@@ -2,7 +2,7 @@
 
 ## Intro to Project Reflection
 
-## Our Learning Experience ( for the concept we focused on) 
+## Our Learning Experience  
 
 
 ## The Process of Developing a Tutorial 
@@ -17,6 +17,7 @@
 ## Summary of the Feedback on our Tutorial 
 ### The tool did address the use case we identified as it ultimately looks at the root of the problem in these IFC models and despite it being time consuming to set up. The long term value is that it would save time and effort. Below is a summarized list of the comments we got from the other groups. Most of the feedback talks about how useful our tool is and the rest talks about the time this tool takes to be efficient.  	 
 #### This helps clean up the model and ensures that time spent on it by designers and planners is more efficient. 
+### The feedback directly from the other groups: 
 #### Simplifies the model by cleaning it up AND finds "missing" elements which seems pretty nice.  
 #### This tool seems very helpful, particularly in simplifying models early in the project process. 
 #### Over time, as the tool is used more often, its library of known errors will grow, making it increasingly effective. 
@@ -26,7 +27,7 @@
 
 ## Individual Feedback | Lama Aref Abdul Hamid | 
 
-## Individual Feedback | Navaira Shahid Majeed | s
+## Individual Feedback | Navaira Shahid Majeed | 
 
 
 ## Individual Feedback | Hajar Benjdya | s184359
