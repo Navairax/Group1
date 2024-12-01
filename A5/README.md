@@ -26,11 +26,11 @@
 > * This tool has the potential to be highly beneficial in the real-world industry. While it may require some effort at the start, its long-term efficiency gains make it a valuable contribution. The group did a great job on this project. 
 
 ## Individual Feedback | Lama Aref Abdul Hamid | s194957
-###Through working with A1-A5, I have gained a good understanding of Openbim and its use in the construction. A1 was a good introduction to working with BIM models in Python and gave me a solid foundation for the later tasks. In A2, we were asked to define a use case for BIM, which helped me understand how the technology is used across construction projects.
+### Through working with A1-A5, I have gained a good understanding of Openbim and its use in the construction. A1 was a good introduction to working with BIM models in Python and gave me a solid foundation for the later tasks. In A2, we were asked to define a use case for BIM, which helped me understand how the technology is used across construction projects.
 
-###A3 and A4 were the most challenging tasks, especially due to errors in the BIM model, which we had to adjust several times. This has given me experience in problem solving and the importance of a stable basis in Openbim. Although frustrating, it has been instructive and given me a better understanding of how Openbim works in practice.
+### A3 and A4 were the most challenging tasks, especially due to errors in the BIM model, which we had to adjust several times. This has given me experience in problem solving and the importance of a stable basis in Openbim. Although frustrating, it has been instructive and given me a better understanding of how Openbim works in practice.
 
-###I feel that the tasks are well connected and have given me an understanding of Openbim. I now see Openbim as an important tool in the construction industry.
+### I feel that the tasks are well connected and have given me an understanding of Openbim. I now see Openbim as an important tool in the construction industry.
 
 ## Individual Feedback | Navaira Shahid Majeed | 
 
