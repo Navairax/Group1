@@ -1,6 +1,7 @@
 # Assignment 5 | Group 1 
 
 ## Intro to Project Reflection
+### Our group started off with little to no knowledge on BIM,IFC, and python, however with time and interest we really were able to grasp the concepts and to think about how can we utilize this for our projects in the course but also for our future. We internally reflected on how important this concept will be in 10 years time and with our foundation from this course, it will be a good starting point for our future careers. Overall this reflection, covers extensively how this entire course was one big learning curve and how beneficial it can be to learn from each others peer reviews and by doing the assignments. 
 
 ## Our Learning Experience  
 ### Our group's learning level at the beginning of the course was quite beginner. All three of us had basic programming skills and vague knowledge on Open BIM. This meant that there was a steep learning curve at the beginning to be able to grasp all the concepts and how to benefit from BIM. We would still need to learn about all of the blender BIM wide set of tools and how to effectively use python to get the IFC information needed. These tools combined can really be beneficial to standardized and efficientizing the building industry so we can see that OpenBIM is here to stay. We would use OpenBIM to develop base line models of projects that are easily sharable and can help teams have that common understanding and common platform to visually communicate buildings.  
