@@ -3,7 +3,7 @@
 ## Intro to Project Reflection
 
 ## Our Learning Experience  
-
+### Our group's learning level at the beginning of the course was quite beginner. All three of us had basic programming skills and vague knowledge on Open BIM. This meant that there was a steep learning curve at the beginning to be able to grasp all the concepts and how to benefit from BIM. We would still need to learn about all of the blender BIM wide set of tools and how to effectively use python to get the IFC information needed. These tools combined can really be beneficial to standardized and efficientizing the building industry so we can see that OpenBIM is here to stay. We would use OpenBIM to develop base line models of projects that are easily sharable and can help teams have that common understanding and common platform to visually communicate buildings.  
 
 ## The Process of Developing a Tutorial 
 ### To develop the tutorial (A4) we initially wanted to teach others about the process of performing simple checks, such as the floor-to-floor height. When developing that, we came across the problem of mislabelled Ifc elements in the model. This mislabelling seemed to be a common issue among the three Ifc building models and the architecture groups. Therefore, we ultimately decided the tutorial that would make most sense would be one that addresses the root cause of everyones problems. The mislabelling of elements in a model. The tutorial that we developed was then basically aimed at solving our own mislabelled floor and ceilings and then teaching the others how to use our method and script to identify and correct their own mislabelled elements. The process of developing the script and tutorial was definitely iterative and involved many trials and errors.  
