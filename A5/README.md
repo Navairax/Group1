@@ -33,7 +33,15 @@
 
 ### I feel that the tasks are well connected and have given me an understanding of Openbim. I now see Openbim as an important tool in the construction industry.
 
-## Individual Feedback | Navaira Shahid Majeed | 
+## Individual Feedback | Navaira Shahid Majeed | s214364
+### At this point, i am not completely sure if i will use OpenBIM tools in my thesis because i havent started thinking about the specifik topic yet, as there is still one year to go. However, it is not something i will rule out. The work we have done in this course has shown me how powerful and useful OpenBIM tools can be, and i find them very interesting to work with. 
+### the next 10 years in my professional life i would like to have OpenBIM be some part of it. After i heard the presentations about how OpenBIM is used in the workspace and how the construction industry also is moving towards tools like BlenderBIM i found it more fascinating and wanted to study about it more. So it could be a nice experience to work on projects where OpenBIM will be used
+
+### Looking back on my journet from A1-A5, i can see how much i have learned about OpenBIM tools and their applications. On day 1 i had heard nothing about IFC models and here i am now and have gained alot of knowledge about the OpenBIM world. 
+### A1 and A2: Here we looked at IFC models and identified missing or incorrect data in ceilings. This helpes me to understand how to Analyze building information. 
+### A3 and A4: We created our own tool using BlenderBIM and VS code to check the floor-to-floor heights in a model. This taught me how VS code could be used to check a whole IFC model. We also worked on fixing mislabeling issues, and here we improved classification og building elements.
+
+### Thourgh all these assignments, i have learned to solve real problems with OpenBIM and tools. i have gaines hand-on experience working with IFC data and fixing errors.
 
 
 ## Individual Feedback | Hajar Benjdya | s184359
